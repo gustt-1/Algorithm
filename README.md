@@ -39,7 +39,7 @@
 
 ##  联系方式
 
-GitHub: https://github.com/gustt-01 
+GitHub: https://github.com/gustt-1
 leetcode: https://leetcode.cn/u/nostalgic-chebyshevmpc/
 
 欢迎关注和交流！
