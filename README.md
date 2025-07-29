@@ -13,7 +13,6 @@
 
 算法分类包括但不限于：
 
-- [链表、二叉树与回溯（Linked List, Binary Tree & Backtracking）](./tree/README.md)
 - [滑动窗口与双指针（Sliding Window & Two Pointers）](./sliding-window/README.md)
 - [单调栈（Monotonic Stack）](./monotonic-stack/README.md)
 - [二分算法（Binary Search）](./binary-search/README.md)
