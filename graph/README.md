@@ -17,7 +17,7 @@
 | 题号 | 题目名称                                         | 题解链接                              |
 |-------|------------------------------------------------|-------------------------------------|
 | 200   | [岛屿数量](https://leetcode.cn/problems/number-of-islands/)                   | [题解](./200-number-of-islands.md)           |
-| 2192  | [有向无环图中一个节点的所有祖先](https://leetcode.cn/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/) | [leetcode-2192](graph/solution/leetcode_2192.md) |
+| 2192  | [有向无环图中一个节点的所有祖先](https://leetcode.cn/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/) | [leetcode-2192](graph/solution/leetcode2192.md) |
 
 ---
 
