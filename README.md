@@ -13,17 +13,18 @@
 
 算法分类包括但不限于：
 
+
+- [数学（Math）](./math/README.md)
+- [字符串（String Algorithms）](./string/README.md)
+- [二分算法（Binary Search）](./binary-search/README.md)
+- [数据结构（Data Structures）](./data-structure/README.md)
 - [滑动窗口与双指针（Sliding Window & Two Pointers）](./sliding-window/README.md)
 - [单调栈（Monotonic Stack）](./monotonic-stack/README.md)
-- [二分算法（Binary Search）](./binary-search/README.md)
-- [数学算法（Mathematics Algorithms）](./math/README.md)
 - [网格图（Grid-based Graph Problems）](./grid/README.md)
-- [图论算法（Graph Algorithms）](./graph/README.md)
+- [图论（Graph）](./graph/README.md)
 - [位运算（Bit Manipulation）](./bit/README.md)
 - [动态规划（Dynamic Programming, DP）](./dp/README.md)
-- [常用数据结构（Common Data Structures）](./data-structure/README.md)
 - [贪心与思维（Greedy & Problem Solving Strategies）](./greedy/README.md)
-- [字符串（String Algorithms）](./string/README.md)
 
 
 ---
