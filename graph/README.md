@@ -17,10 +17,7 @@
 | 题号 | 题目名称                                         | 题解链接                              |
 |-------|------------------------------------------------|-------------------------------------|
 | 200   | [岛屿数量](https://leetcode.cn/problems/number-of-islands/)                   | [题解](./200-number-of-islands.md)           |
-| 210   | [课程表 II](https://leetcode.cn/problems/course-schedule-ii/)                 | [题解](./210-course-schedule-ii.md)          |
-| 787   | [K 站中转内最便宜的航班](https://leetcode.cn/problems/cheapest-flights-within-k-stops/) | [题解](./787-cheapest-flights.md)             |
-| 1135  | [最低成本联通所有城市](https://leetcode.cn/problems/connecting-cities-with-minimum-cost/) | [题解](./1135-min-cost-to-connect-cities.md) |
-| 1168  | [优化水资源分配](https://leetcode.cn/problems/optimize-water-distribution-in-a-village/) | [题解](./1168-optimize-water-distribution.md) |
+| 2192  | [有向无环图中一个节点的所有祖先](https://leetcode.cn/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/) | [leetcode-2192](graph/solution/leetcode_2192.md) |
 
 ---
 
