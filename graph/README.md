@@ -16,7 +16,7 @@
 
 | 题号 | 题目名称 | 题解链接 | 难度(LeetCodeRating) |
 |------|----------|----------|------|
-| **2192** | [有向无环图中一个节点的所有祖先](https://leetcode.cn/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/) | [题解](solution/leetcode2192.md) | **中等(1788)** |
+| **2192** | [有向无环图中一个节点的所有祖先](https://leetcode.cn/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/) | [LeetCode-2192](solution/leetcode2192.md) | **中等(1788)** |
 
 ---
 
