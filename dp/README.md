@@ -1,4 +1,4 @@
-# 动态规划算法（Dynamic Programming）
+# 动态规划（Dynamic Programming）
 
 分类：
 
