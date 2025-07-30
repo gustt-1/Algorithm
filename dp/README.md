@@ -20,7 +20,7 @@
 
 | 题号 | 题目名称 | 题解链接 | 类型 | 难度(LeetCodeRating) |
 |------|----------|----------|------|----------------------|
-| **322** | [零钱兑换](https://leetcode.cn/problems/coin-change/) | [LeetCode-322](solution/LeetCode322.md) | 完全背包 | 中等(1586) |
+| **956** | [最高的广告牌](https://leetcode.cn/problems/tallest-billboard/) | [LeetCode-956](solution/LeetCode956.md) | 0-1背包 | 困难(2381) |
 
 ---
 
