@@ -28,11 +28,10 @@
 
 
 ---
-##  目标
 
-- 系统梳理刷题思路，提升算法水平  
-- 多语言实现题解（Go / C++ / Python）  
-- 持续更新，争取冲击 Leetcode 高级排名及 Codeforces 高 rating
+
+- 多语言实现题解（Go / C++ / Python）
+- 持续更新，争取冲击 Leetcode rating及 Codeforces 高 rating
 
 
 ---
