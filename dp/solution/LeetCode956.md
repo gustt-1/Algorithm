@@ -102,7 +102,7 @@ func max(a, b int) int {
 ```
 ---
 
-## cpp 代码
+## Cpp 代码
 
 ```cpp
 
@@ -129,7 +129,7 @@ public:
 
 ```
 ---
-## python 代码
+## Python 代码
 
 ```python
 
