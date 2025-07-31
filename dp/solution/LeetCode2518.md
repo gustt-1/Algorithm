@@ -39,7 +39,7 @@ O(k)
 
 ## Go 代码
 
-```go
+```Go
 
 func countPartitions(nums []int, k int) int {
     mod := int(1e9 + 7)
@@ -68,9 +68,9 @@ func countPartitions(nums []int, k int) int {
 ```
 ---
 
-## Cpp 代码
+## C++ 代码
 
-```cpp
+```C++
 
 class Solution {
 public:
@@ -98,7 +98,7 @@ public:
 ---
 ## Python 代码
 
-```python
+```Python
 
 class Solution:
     def countPartitions(self, nums: List[int], k: int) -> int:
