@@ -28,7 +28,7 @@ O(n+m)
 
 ## Go 代码
 
-```go
+```Go
 
 func getAncestors(n int, edges [][]int) [][]int {
     g := make([][]int, n)
@@ -64,9 +64,9 @@ func getAncestors(n int, edges [][]int) [][]int {
 ```
 ---
 
-## cpp 代码
+## C++ 代码
 
-```cpp
+```C++
 
 class Solution {
 public:
@@ -106,9 +106,9 @@ public:
 
 ```
 ---
-## python 代码
+## Python 代码
 
-```python
+```Python
 
 class Solution:
     def getAncestors(self, n: int, edges: List[List[int]]) -> List[List[int]]:
