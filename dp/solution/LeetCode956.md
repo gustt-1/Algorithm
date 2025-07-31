@@ -19,11 +19,19 @@
 
 假设第i根钢筋长为rods[i],当前两边高度差为d
 
-那么状态转移方程则为 dp[i][d] = max{dp[i−1][d], dp[i−1][d+rods[i]]+rods[i], dp[i−1][∣d−rods[i]∣]+rods[i]}
+那么状态转移方程则为 dp[i][d] = max{dp[i−1][d], dp[i−1][d+rods[i]]+rods[i], dp[i−1][|d − rods[i]|]+rods[i]}
 
-1.如果是放在更长的那一边则高度差为d + rods[i],因为更长那么直接加就行。
+- 1.如果是放在更长的那一边则高度差为d + rods[i],因为更长那么直接加就行。
 
-2.如果是更短的那一边那我们要考虑加入了rods[i]之后，更短的那一边是否会比更长的那边更长。那我们需要取一个绝对值。更短那么则是d - rods[i]如果更长了，那么我们把rods[i]分成d + x(因为更长,d为高度差值，x为多出的那一部分) | d - rods[i] | = | d - （d + x）| = |-x| = x,也就是多出的那一部分x，也就是新的高度差。
+- 2.如果是更短的那一边那我们要考虑加入了rods[i]之后，更短的那一边是否会比更长的那边更长。那我们需要取一个绝对值。
+  - （1）如果加入的钢筋长比高度差更短，那么是d - rods[i]
+  - （2）如果更长了，那么我们把rods[i]分成d + x(因为更长,d为高度差值，x为多出的那一部分) |d - rods[i]| = |d - （d + x）| = |-x| = x,也就是多出的那一部分x，也就是新的高度差。
+
+- 3.我们的背包总容量为所有钢筋的长度总和，因为下标从0开始，所以我们要多开一个（sum+1）。第一层for是遍历所有的钢筋，第二层是遍历背包容量。
+- 4.由于我们dp[i][j]的状态转移只跟dp[i-1][]和dp[i][]（当前层和上一层的状态有关）所以我们可以对0-1背包进行空间优化，但是由于|d-rods[i]|的不确定性，我们不能只用一个数组从后往前更新，当 |d - r| < d 时，后面更新的 dp[|d - r|] 会使用到本轮已经更新的 dp[d]，导致错误的状态叠加。所以需要使用两个数组来更新状态，一个用来prev保存上层的状态，一个dp来更新当前层的状态。
+- 5.最后我们返回dp[0] / 2，注意dp[0]表示考虑完所有的钢筋，使得两堆钢筋长度差为0的两堆钢筋最大可以达到的长度，所以我们需要除以2
+
+
 
 
 ##
@@ -31,13 +39,13 @@
 
 ## 时间复杂度
 
-O(n(n+m))。其中 m 是 edges 的长度。对于每个起点 i，跑一次 DFS 的时间复杂度为 O(n+m)。
+O(n * sum),n为钢筋数量，sum为钢筋总长度（背包容量）
 
 ---
 
 ## 空间复杂度
 
-O(n+m)
+O(sum) 我们只开了两个长度为sum的数组
 
 ---
 
@@ -45,6 +53,50 @@ O(n+m)
 
 ```go
 
+func tallestBillboard(rods []int) int {
+    sum := 0
+    for _, r := range rods {
+        sum += r
+    }
+
+    f := make([]int, sum+1)
+    for i := range f {
+        f[i] = -int(1e9)
+    }
+    f[0] = 0
+
+    for _, r := range rods {
+        prev := make([]int, len(f))
+        copy(prev, f)
+
+        for d := 0; d <= sum-r; d++ {
+            if prev[d] < -1e9 {
+                continue
+            }
+            if d+r <= sum {
+                f[d+r] = max(f[d+r], prev[d]+r)
+            }
+            diff := abs(d - r)
+            f[diff] = max(f[diff], prev[d]+r)
+        }
+    }
+
+    return f[0] / 2
+}
+
+func abs(x int) int {
+    if x < 0 {
+        return -x
+    }
+    return x
+}
+
+func max(a, b int) int {
+    if a > b {
+        return a
+    }
+    return b
+}
 
 
 ```
@@ -54,6 +106,25 @@ O(n+m)
 
 ```cpp
 
+class Solution {
+public:
+    int tallestBillboard(vector<int>& rods) {
+        int s = accumulate(rods.begin(), rods.end(), 0);
+        vector<int> f(s + 1, INT_MIN);
+        f[0] = 0;
+
+        for (int r : rods) {
+            vector<int> prev = f;
+            for (int d = 0; d <= s - r; ++d) {
+                if (prev[d] == INT_MIN) continue;
+                f[abs(d - r)] = max(f[abs(d - r)], prev[d] + r);
+                f[d + r] = max(f[d + r], prev[d] + r);
+            }
+        }
+
+        return f[0] / 2;
+    }
+};
 
 
 ```
@@ -62,6 +133,23 @@ O(n+m)
 
 ```python
 
+class Solution:
+    def tallestBillboard(self, rods: list[int]) -> int:
+        s = sum(rods)
+        f = [-float('inf')] * (s + 1)
+        f[0] = 0
 
+        for r in rods:
+            prev = f[:]
+            for d in range(s - r + 1):
+                if prev[d] == -float('inf'):
+                    continue
+
+                f[d + r] = max(f[d + r], prev[d] + r)
+
+                diff = abs(d - r)
+                f[diff] = max(f[diff], prev[d] + r)
+
+        return f[0] // 2
 
 ```
