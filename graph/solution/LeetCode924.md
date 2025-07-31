@@ -42,7 +42,7 @@ O(n)
 
 ## Go 代码
 
-```go
+```Go
 
 func minMalwareSpread(graph [][]int, initial []int) int {
     vis := make([]bool,len(graph))
@@ -91,9 +91,9 @@ func minMalwareSpread(graph [][]int, initial []int) int {
 ```
 ---
 
-## cpp 代码
+## C++ 代码
 
-```cpp
+```C++
 
 class Solution {
 public:
@@ -140,9 +140,9 @@ public:
 
 ```
 ---
-## python 代码
+## Python 代码
 
-```python
+```Python
 
 class Solution:
     def minMalwareSpread(self, graph: List[List[int]], initial: List[int]) -> int:
