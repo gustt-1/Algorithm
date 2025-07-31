@@ -68,7 +68,7 @@ func countPartitions(nums []int, k int) int {
 ```
 ---
 
-## cpp 代码
+## Cpp 代码
 
 ```cpp
 
@@ -96,7 +96,7 @@ public:
 
 ```
 ---
-## python 代码
+## Python 代码
 
 ```python
 
