@@ -1,6 +1,6 @@
 # 刷题笔记 by gustt
 
-欢迎访问我的刷题仓库！这里整理了我在力扣（Leetcode）、Codeforces 等平台上的多种算法分类题解。包含Go/cpp/Python三种语言
+欢迎访问我的刷题仓库！这里整理了我在力扣（Leetcode）、Codeforces 等平台上的多种算法分类题解。包含Go/C++/Python三种语言
 
 ---
 
