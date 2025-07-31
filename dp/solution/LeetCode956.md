@@ -51,7 +51,7 @@ O(sum) 我们只开了两个长度为sum的数组
 
 ## Go 代码
 
-```go
+```Go
 
 func tallestBillboard(rods []int) int {
     sum := 0
@@ -102,9 +102,9 @@ func max(a, b int) int {
 ```
 ---
 
-## Cpp 代码
+## C++ 代码
 
-```cpp
+```C++
 
 class Solution {
 public:
@@ -131,7 +131,7 @@ public:
 ---
 ## Python 代码
 
-```python
+```Python
 
 class Solution:
     def tallestBillboard(self, rods: list[int]) -> int:
