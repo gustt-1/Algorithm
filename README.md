@@ -31,18 +31,14 @@
 
 
 - 多语言实现题解（Go / C++ / Python）
-- 持续更新，争取冲击 Leetcode rating及 Codeforces 高 rating
 
 
 ---
 
-##  联系方式
-
-GitHub: https://github.com/gustt-1
+##
 
 leetcode: https://leetcode.cn/u/nostalgic-chebyshevmpc/
 
-欢迎关注和交流！
 
 ---
 
