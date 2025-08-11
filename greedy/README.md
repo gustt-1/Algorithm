@@ -50,4 +50,4 @@
 |------|----------|----------|------|------------------------|
 
 
-| **1585C - 11** |  [Minimize Distance](https://codeforces.com/problemset/problem/1585/C) |  [cf1585C](.solution/cf1585C.md) |  贪心  | 1300 |
+| **1585C - 11** |  [Minimize Distance](https://codeforces.com/problemset/problem/1585/C) |  [cf1585C](./solution/cf1585C.md) |  贪心  | 1300 |
