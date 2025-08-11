@@ -1,4 +1,4 @@
-# 经典数据结构（Data Structures）
+# 数据结构（Data Structures）
 
 分类：
 
