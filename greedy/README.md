@@ -48,10 +48,6 @@
 
 | 题号 | 题目名称 | 题解链接 | 类型 | 难度(CodeforcesRating) |
 |------|----------|----------|------|------------------------|
-
-
 | **1585C** |  [Minimize Distance](https://codeforces.com/problemset/problem/1585/C) |  [cf1585C](./solution/cf1585C.md) |  贪心  | 1300 |
-
 | **2053C** | [Bewitching Stargazer](https://codeforces.com/problemset/problem/2053/C) | [cf2053C](./solution/cf2053C.md) | 位运算/数学 | 1500 |
-
 | **2129B** | [Stay or Mirror](https://codeforces.com/problemset/problem/2129/B) | [cf2129B](./solution/cf2129B.md) | 贪心 | 1600 |
