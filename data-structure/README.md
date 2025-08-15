@@ -25,5 +25,4 @@
 
 | 题号  | 题目名称                              | 题解链接                   | 类型      | 难度(CodeforcesRating) |
 |-------|---------------------------------------|----------------------------|-----------|------------------------|
-| 455A  | [Boredom](https://codeforces.com/problemset/problem/455/A) | [题解](./cf/455A-boredom.md) | 线性前缀和 | 中等                   |
-
+| **2121F** | [Yamakasi](https://codeforces.com/problemset/problem/2121/F) | [cf2121F](solution/cf2121F.md) | 前缀和 | 1800 |
