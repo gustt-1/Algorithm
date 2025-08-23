@@ -24,7 +24,7 @@
 - [图论（Graph）](./graph/README.md)
 - [位运算（Bit Manipulation）](./bit/README.md)
 - [动态规划（Dynamic Programming, DP）](./dp/README.md)
-- [贪心与思维（Greedy & Problem Solving Strategies）](./greedy_math/README.md)
+- [贪心与思维（Greedy & Problem Solving Strategies）](./greedy/README.md)
 
 
 ---
