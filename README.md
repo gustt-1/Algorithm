@@ -37,7 +37,7 @@
 
 ##
 
-leetcode: https://leetcode.cn/u/nostalgic-chebyshevmpc/
+**LeetCode**: https://leetcode.cn/u/nostalgic-chebyshevmpc/
 
 
 ---
