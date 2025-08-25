@@ -18,7 +18,7 @@
 | 题号  | 题目名称                                | 题解链接                     | 类型          | 难度(LeetCodeRating)   |
 |-------|-----------------------------------------|------------------------------|---------------|------------------------|
 | **699** | [掉落的方块](https://leetcode.cn/problems/falling-squares/description/) | [LeetCode-699](solution/LeetCode699.md)   |动态开点线段树 |  困难 |
-
+| **930** | [和相同的二元子数组](https://leetcode.cn/problems/binary-subarrays-with-sum/description/) | [LeetCode-930](solution/LeetCode930.md) | 前缀和+哈希表/滑动窗口 | 中等（1592）|
 ---
 
 ## Codeforces 题目（Codeforces Problems）
