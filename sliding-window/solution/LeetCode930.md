@@ -47,17 +47,38 @@
 
 ```Go
 
-func numSubarraysWithSum(nums []int, goal int) (ans int) {
-    sum := 0
-    cnt := map[int]int{0: 1}
-    for _, x := range nums {
-        sum += x
-        if c, ok := cnt[sum - goal]; ok {
-            ans += c
+func numSubarraysWithSum(nums []int, goal int) int {
+    if goal == 0 {
+        res := 0
+        count := 0
+        for _, x := range nums {
+            if x == 0 {
+                count++
+                res += count
+            } else {
+                count = 0
+            }
         }
-        cnt[sum]++
+        return res
     }
-    return
+    summost := func(t int) int {
+        if t < 0 {
+            return 0
+        }
+        res := 0
+        total := 0
+        for l, r := 0, 0; r < len(nums); {
+            total += nums[r]
+            r++
+            for total > t {
+                total -= nums[l]
+                l++
+            }
+            res += r - l + 1
+        }
+        return res
+    }
+    return summost(goal) - summost(goal-1)
 }
 
 ```
@@ -78,17 +99,32 @@ func numSubarraysWithSum(nums []int, goal int) (ans int) {
 
 class Solution:
     def numSubarraysWithSum(self, nums: List[int], goal: int) -> int:
-        total = 0
-        cnt = defaultdict(int)
-        cnt[0] = 1
-        ans = 0
-        for _, x in enumerate(nums):
-            total += x
-            if total-goal in cnt:
-                ans += cnt[total-goal]
-            cnt[total] += 1
-        return ans
+        if goal == 0:
+            res = 0
+            count = 0
+            for x in nums:
+                if x == 0:
+                    count += 1
+                    res += count
+                else:
+                    count = 0
+            return res
 
+        def summost(t: int) -> int:
+            if t < 0:
+                return 0
+            res = 0
+            total = 0
+            l = 0
+            for r, x in enumerate(nums):
+                total += x
+                while total > t:
+                    total -= nums[l]
+                    l += 1
+                res += r - l + 1
+            return res
+
+        return summost(goal) - summost(goal - 1)
 
 
 ```
