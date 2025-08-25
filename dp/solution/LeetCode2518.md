@@ -1,4 +1,4 @@
-# [leetcode-2518] [好分区的数目](https://leetcode.cn/problems/number-of-great-partitions/)
+# [LeetCode-2518] [好分区的数目](https://leetcode.cn/problems/number-of-great-partitions/)
 ## 题目描述 
 
 > 给你一个正整数数组 nums 和一个整数 k 。分区 的定义是：将数组划分成两个有序的 组 ，并满足每个元素 恰好 存在于 某一个 组中。如果分区中每个组的元素和都大于等于 k ，则认为分区是一个好分区。返回 不同 的好分区的数目。由于答案可能很大，请返回对 109 + 7 取余 后的结果。
