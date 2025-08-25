@@ -1,4 +1,4 @@
-# [leetcode-956] [最高的广告牌](https://leetcode.cn/problems/tallest-billboard/description/)
+# [LeetCode-956] [最高的广告牌](https://leetcode.cn/problems/tallest-billboard/description/)
 ## 题目描述
 
 
