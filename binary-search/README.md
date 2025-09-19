@@ -20,4 +20,4 @@
 
 | 题号 | 题目名称 | 题解链接 | 类型 | 难度(CodeforcesRating) |
 |------|----------|----------|------|------------------------|
-| 1680C | [Binary String](https://codeforces.com/contest/1680/problem/C) | [cf1680C](solution/cf1680C.md) | 二分/滑动窗口 | 1600 |
+| 1680C | [Binary String](https://codeforces.com/contest/1680/problem/C) | [cf1680C](./solution/cf1680C.md) | 二分/滑动窗口 | 1600 |
