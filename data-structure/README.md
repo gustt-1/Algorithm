@@ -2,6 +2,7 @@
 
 分类：
 
+- 枚举技巧
 - 前缀和 / 差分
 - 栈
 - 队列
@@ -26,3 +27,4 @@
 | 题号  | 题目名称                              | 题解链接                   | 类型      | 难度(CodeforcesRating) |
 |-------|---------------------------------------|----------------------------|-----------|------------------------|
 | **2121F** | [Yamakasi](https://codeforces.com/problemset/problem/2121/F) | [cf2121F](solution/cf2121F.md) | 前缀和 | 1800 |
+| **1996D** | [Fun](https://codeforces.com/problemset/problem/1996/D) | [cf1996D](solution/cf1996D.md) | 枚举 | 1500 |
