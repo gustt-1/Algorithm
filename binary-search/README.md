@@ -12,7 +12,6 @@
 
 | 题号 | 题目名称 | 题解链接 |  类型   | 难度(LeetCodeRating) |
 |------|----------|----------|----------|----------------------|
-| **956** | [最高的广告牌](https://leetcode.cn/problems/tallest-billboard/) | [LeetCode-956](solution/LeetCode956.md) |    01背包      | 困难(2381) |
 
 ---
 
