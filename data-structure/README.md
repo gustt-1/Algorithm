@@ -28,3 +28,4 @@
 |-------|---------------------------------------|----------------------------|-----------|------------------------|
 | **2121F** | [Yamakasi](https://codeforces.com/problemset/problem/2121/F) | [cf2121F](solution/cf2121F.md) | 前缀和 | 1800 |
 | **1996D** | [Fun](https://codeforces.com/problemset/problem/1996/D) | [cf1996D](solution/cf1996D.md) | 枚举 | 1500 |
+| **2008E** | [Alternating String](https://codeforces.com/contest/2008/problem/E) | [cf2008E](solution/cf2008E.md) | 前缀和 | 1500 |
