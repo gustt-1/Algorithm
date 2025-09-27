@@ -30,7 +30,10 @@
 ---
 
 
-- 多语言实现题解（Go / C++ / Python）
+## LeetCode Hot 100 题解
+
+[LeetCode Hot 100](./LeetCode%20Hot%20100/README.md)
+  
 
 
 ---
@@ -38,8 +41,3 @@
 ##
 
 **LeetCode**: https://leetcode.cn/u/gustt/
-
-
----
-
-*本仓库为个人学习笔记整理，欢迎提出建议和 PR。*
