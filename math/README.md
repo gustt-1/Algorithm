@@ -54,3 +54,4 @@
 | **cf2044E** | [Insane Problem](https://codeforces.com/problemset/problem/2044/E) | [cf2044E](./solution/cf2044E.md) | 数学 | 1300 |
 | **cf911D** | [Inversion Counting](https://codeforces.com/contest/911/problem/D) | [cf911D](./solution/cf911D.md) | 数学 | 1800 |
 | **cf1893B** | [Neutral Tonality](https://codeforces.com/problemset/problem/1893/B) | [cf1893B](./solution/cf1893B.md) | 贪心/构造/最长递增子序列（LIS） | 1700 |
+| **cf2137E** | [Mexification](https://codeforces.com/problemset/problem/2137/E) | [cf2137E](./solution/cf2137E.md) | 数学/思维 | 1500 |
