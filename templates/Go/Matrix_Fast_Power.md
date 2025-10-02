@@ -74,3 +74,9 @@ func (a matrix) powMul(n int, f0 matrix) matrix {
 	return res
 }
 ```
+---
+
+## 答案即是
+`fn := T.powMul(n, f0)`
+
+`fn[0][0]`
