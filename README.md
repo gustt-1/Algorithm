@@ -4,15 +4,9 @@
 
 ---
 
-##  平台和算法分类
+##  LeetCode / Codeforces 题解
 
-本仓库涵盖了以下刷题平台的题解：
-
-- **力扣 (Leetcode)**
-- **Codeforces**
-
-算法分类包括但不限于：
-
+算法分类：
 
 
 - [字符串（String Algorithms）](./string/README.md)
@@ -31,9 +25,10 @@
 
 
 ## [LeetCode Hot 100 题解](./LeetCode%20Hot%20100/README.md)
-  
 
-## GoLang 算法竞赛模板()
+---
+
+## [GoLang 算法竞赛模板](templates/README.md)
 
 ---
 
