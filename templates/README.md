@@ -4,3 +4,5 @@
 ---
 **[矩阵快速幂](Go/Matrix_Fast_Power.md)**
 ---
+**[堆](Go/Heap.md)**
+---
