@@ -30,3 +30,4 @@
 | 题号 | 题目名称 | 题解链接 | 类型 | 难度(CodeforcesRating) |
 |------|----------|----------|------|------------------------|
 | **cf691E** | [Xor-sequences](https://codeforces.com/problemset/problem/691/E) | [cf691E](solution/cf691E.md) | 矩阵快速幂优化DP | 1900 |
+| **cf1117D** | [Magic Gems](https://codeforces.com/problemset/problem/1117/D) | [cf1117D](solution/cf691E.md) | 矩阵快速幂优化DP | 2100 |
