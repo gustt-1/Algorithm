@@ -29,4 +29,4 @@
 
 | 题号 | 题目名称 | 题解链接 | 类型 | 难度(CodeforcesRating) |
 |------|----------|----------|------|------------------------|
-| 455A | [Boredom](https://codeforces.com/problemset/problem/455/A) | [题解](./cf/455A-boredom.md) | 线性 DP（变种） | 中等 |
+| **cf691E** | [Xor-sequences](https://codeforces.com/problemset/problem/691/E) | [cf691E](solution/cf691E.md) | 矩阵快速幂优化DP | 1900 |
