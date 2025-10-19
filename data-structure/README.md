@@ -30,3 +30,4 @@
 | **1996D** | [Fun](https://codeforces.com/problemset/problem/1996/D) | [cf1996D](solution/cf1996D.md) | 枚举 | 1500 |
 | **2008E** | [Alternating String](https://codeforces.com/contest/2008/problem/E) | [cf2008E](solution/cf2008E.md) | 前缀和 | 1500 |
 | **1984C2** | [Magnitude (Hard Version)](https://codeforces.com/contest/1984/problem/C2) | [cf1984C2](solution/cf1984C2.md) | 前缀和 | 1700 |
+| **1935B** | [Informatics in MAC](https://codeforces.com/problemset/problem/1935/B) | [cf1935B](solution/cf1935B.md) | 前缀MEX | 1200 |
