@@ -59,3 +59,4 @@
 | **cf1766D** | [Lucky Chains](https://codeforces.com/problemset/problem/1766/D) | [cf1766D](./solution/cf1766D.md) | 数论（gcd) | 1600 |
 | **cf2140C** | [Ultimate Value](https://codeforces.com/problemset/problem/2140/C) | [cf2140C](./solution/cf2140C.md) | 贪心 | 1500 |
 | **cf1526B** | [I Hate 1111](https://codeforces.com/problemset/problem/1526/B) | [cf1526B](./solution/cf1526B.md) | 数论 | 1400 |
+| **cf1862D** | [Ice Cream Balls](https://codeforces.com/problemset/problem/1862/D) | [cf1862D](./solution/cf1862D.md) | 数学/一元二次方程 | 1300 |
