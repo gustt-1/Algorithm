@@ -60,3 +60,4 @@
 | **cf2140C** | [Ultimate Value](https://codeforces.com/problemset/problem/2140/C) | [cf2140C](./solution/cf2140C.md) | 贪心 | 1500 |
 | **cf1526B** | [I Hate 1111](https://codeforces.com/problemset/problem/1526/B) | [cf1526B](./solution/cf1526B.md) | 数论 | 1400 |
 | **cf1862D** | [Ice Cream Balls](https://codeforces.com/problemset/problem/1862/D) | [cf1862D](./solution/cf1862D.md) | 数学/一元二次方程 | 1300 |
+| **cf2121E** | [Sponsor of Your Problems](https://codeforces.com/contest/2121/problem/E) | [cf2121E](./solution/cf2121E.md) | 贪心 | 1500 |
