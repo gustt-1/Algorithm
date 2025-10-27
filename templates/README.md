@@ -45,3 +45,5 @@ func main() {
 ---
 **[堆](Go/Heap.md)**
 ---
+**[质数筛（埃氏筛/欧拉筛）](Go/isprime.md)**
+---
