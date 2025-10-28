@@ -20,4 +20,4 @@
 
 | 题号 | 题目名称 | 题解链接 | 类型 | 难度(CodeforcesRating) |
 |------|----------|----------|------|------------------------|
-| **1585C** |  [Minimize Distance](https://codeforces.com/problemset/problem/1585/C) |  [cf1585C](./solution/cf1585C.md) |  贪心  | 1300 |
+| **cf1845C** |  [Strong Password](https://codeforces.com/problemset/problem/1845/C) |  [cf1845C](./solution/cf1845C.md) |  子序列自动机  | 1400 |
