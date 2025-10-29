@@ -47,3 +47,5 @@ func main() {
 ---
 **[质数筛（埃氏筛/欧拉筛）](Go/isprime.md)**
 ---
+**[子序列自动机](Go/Subsequence_Automaton.md)**
+---
