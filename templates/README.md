@@ -1,4 +1,4 @@
-## Go 算法竞赛模板
+# Go 算法竞赛模板
 
 ```
 package main
@@ -39,13 +39,34 @@ func main() {
 
 ---
 
-**[乘法快速幂](Go/Fast_Power.md)**
+
 ---
-**[矩阵快速幂](Go/Matrix_Fast_Power.md)**
+## 数据结构
+
+### [堆](Go/Heap.md)
+
+
 ---
-**[堆](Go/Heap.md)**
+
+## 图论
+
+
 ---
-**[质数筛（埃氏筛/欧拉筛）](Go/isprime.md)**
+## 动态规划
+### [矩阵快速幂](Go/Matrix_Fast_Power.md)
+
 ---
-**[子序列自动机](Go/Subsequence_Automaton.md)**
+
+## 数学
+
+### [乘法快速幂](Go/Fast_Power.md)
+
+### [质数筛（埃氏筛/欧拉筛）](Go/isprime.md)
+
+---
+
+## 字符串
+
+### [子序列自动机](Go/Subsequence_Automaton.md)
+
 ---
