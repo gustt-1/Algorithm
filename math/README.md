@@ -63,3 +63,4 @@
 | **cf2121E** | [Sponsor of Your Problems](https://codeforces.com/contest/2121/problem/E) | [cf2121E](./solution/cf2121E.md) | 贪心 | 1500 |
 | **cf1929C** | [Sasha and the Casino](https://codeforces.com/problemset/problem/1929/C) | [cf1929C](./solution/cf1929C.md) | 数学 | 1400 | 
 | **cf2110C** | [Racing](https://codeforces.com/problemset/problem/2110/C) | [cf2110C](./solution/cf2110C.md) | 反悔贪心 | 1400 | 
+| **cf1790D** | [Matryoshkas](https://codeforces.com/problemset/problem/1790/D) | [cf1790D](./solution/cf1790D.md) | 贪心 | 1200 |
