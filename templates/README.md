@@ -62,7 +62,7 @@ func main() {
 
 ### [质数筛（埃氏筛/欧拉筛）](Go/isprime.md)
 
-### [gcd/lcm](GO/gcd_and_lcm.md)
+### [gcd/lcm](Go/gcd_and_lcm.md)
 ---
 
 ## 字符串
