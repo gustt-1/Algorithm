@@ -20,4 +20,4 @@
 | 题号 | 题目名称 | 题解链接 | 类型 | 难度(CodeforcesRating) |
 |------|----------|----------|------|------------------------|
 | **cf1680C** | [Binary String](https://codeforces.com/contest/1680/problem/C) | [cf1680C](./solution/cf1680C.md) | 二分/滑动窗口 | 1600 |
-| **cf1907D** | [Jumping Through Segments](https://codeforces.com/problemset/problem/1907/D) | [cf1907D](./solution/cf1680C.md) | 二分答案 | 1400 |
+| **cf1907D** | [Jumping Through Segments](https://codeforces.com/problemset/problem/1907/D) | [cf1907D](./solution/cf1907D.md) | 二分答案 | 1400 |
