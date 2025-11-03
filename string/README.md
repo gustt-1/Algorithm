@@ -10,8 +10,6 @@
 
 | 题号 | 题目名称 | 题解链接 |  类型   | 难度(LeetCodeRating) |
 |------|----------|----------|----------|----------------------|
-|**858**| [镜面反射](https://leetcode.cn/problems/mirror-reflection/description/)| [LeetCode858](./solution/LeetCode858.md) | 数学(lcm) | 中等（1881） |
-
 
 
 ---
