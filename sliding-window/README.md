@@ -23,5 +23,4 @@
 
 | 题号  | 题目名称                              | 题解链接                   | 类型      | 难度(CodeforcesRating) |
 |-------|---------------------------------------|----------------------------|-----------|------------------------|
-| **cf1077C** | [Good Array](https://codeforces.com/problemset/problem/1077/C) | [cf1077C](solution/cf1077C.md) | 不定长滑动窗口 | 1400 |
 | **cf2149E** | [Hidden Knowledge of the Ancients](https://codeforces.com/problemset/problem/2149/E) | [cf2149E](solution/cf2149E.md) | 不定长滑动窗口 | 1500 |
