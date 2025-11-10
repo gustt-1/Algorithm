@@ -24,3 +24,4 @@
 | 题号  | 题目名称                              | 题解链接                   | 类型      | 难度(CodeforcesRating) |
 |-------|---------------------------------------|----------------------------|-----------|------------------------|
 | **cf2149E** | [Hidden Knowledge of the Ancients](https://codeforces.com/problemset/problem/2149/E) | [cf2149E](solution/cf2149E.md) | 不定长滑动窗口 | 1500 |
+| **cf2000D** | [Right Left Wrong](https://codeforces.com/problemset/problem/2000/D) | [cf2000D](solution/cf2000D.md) | 双指针 | 1200 |
