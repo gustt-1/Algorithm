@@ -32,4 +32,4 @@
 | **1984C2** | [Magnitude (Hard Version)](https://codeforces.com/contest/1984/problem/C2) | [cf1984C2](solution/cf1984C2.md) | 前缀和 | 1700 |
 | **1935B** | [Informatics in MAC](https://codeforces.com/problemset/problem/1935/B) | [cf1935B](solution/cf1935B.md) | 前缀MEX | 1200 |
 | **1520D** | [Same Differences](https://codeforces.com/problemset/problem/1520/D) | [cf1520D](solution/cf1520D.md) | 前缀和 | 1200 |
-| **493C** | [Vasya and Basketball](https://codeforces.com/problemset/problem/493/C) | [cf493C](solution/cf493C.md) | 前后缀分解 | 1600 |
+| **493C** | [Vasya and Basketball](https://codeforces.com/problemset/problem/493/C) | [cf493C](solution/cf493C.md) | 前后缀分解、排序 | 1600 |
