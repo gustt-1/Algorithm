@@ -64,3 +64,4 @@
 | **cf1929C** | [Sasha and the Casino](https://codeforces.com/problemset/problem/1929/C) | [cf1929C](./solution/cf1929C.md) | 数学 | 1400 | 
 | **cf2110C** | [Racing](https://codeforces.com/problemset/problem/2110/C) | [cf2110C](./solution/cf2110C.md) | 反悔贪心 | 1400 | 
 | **cf1790D** | [Matryoshkas](https://codeforces.com/problemset/problem/1790/D) | [cf1790D](./solution/cf1790D.md) | 贪心 | 1200 |
+| **cf2123D** | [Binary String Battle](https://codeforces.com/contest/2123/problem/D) | [cf2123D](./solution/cf2123D.md) | 思维/贪心 | 1400 |
