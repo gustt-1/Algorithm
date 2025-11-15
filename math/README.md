@@ -39,7 +39,7 @@
 |**858**| [镜面反射](https://leetcode.cn/problems/mirror-reflection/description/)| [LeetCode858](./solution/LeetCode858.md) | 数学(LCM) | 中等(1881) |
 | **2555** | [两个线段获得的最多奖品](https://leetcode.cn/problems/maximize-win-from-two-segments/description/) | [LeetCode2555](./solution/LeetCode2555.md) | 枚举技巧 | 中等(2081) |
 | **1611** | [使整数变为 0 的最少操作次数](https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero/) | [LeetCode1611](./solution/LeetCode1611.md) | 数学 | 困难(2345) |
-| **
+| **3234** | [统计 1 显著的字符串的数量](https://leetcode.cn/problems/count-the-number-of-substrings-with-dominant-ones/description/) | [LeetCode3234](./solution/LeetCode3234.md) | 思维/枚举 | 中等(2557) | 
 
 
 ---
