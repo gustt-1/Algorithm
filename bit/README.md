@@ -7,7 +7,8 @@
 
 | 题号 | 题目名称 | 题解链接 |  类型   | 难度(LeetCodeRating) |
 |------|----------|----------|----------|----------------------|
- 
+| 2154 | [将找到的值乘以2](https://leetcode.cn/problems/keep-multiplying-found-values-by-two/description/) | [LeetCode2154](./solution/LeetCode2154.md) | 位运算优化 | 简单(1236) |
+
 ---
 
 ## Codeforces 题目（Codeforces Problems）
