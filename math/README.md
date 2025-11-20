@@ -66,3 +66,4 @@
 | **cf1790D** | [Matryoshkas](https://codeforces.com/problemset/problem/1790/D) | [cf1790D](./solution/cf1790D.md) | 贪心 | 1200 |
 | **cf2123D** | [Binary String Battle](https://codeforces.com/contest/2123/problem/D) | [cf2123D](./solution/cf2123D.md) | 思维/贪心 | 1400 |
 | **cf2147C** | [Rabbits](https://codeforces.com/problemset/problem/2147/C) | [cf2147C](./solution/cf2147C.md) | 思维/贪心 | 1500 |
+| **cf1860C** | [Game on Permutation](https://codeforces.com/problemset/problem/1860/C) | [cf1860C](./solution/cf1860C.md) | 博弈/DP | 1400 |
