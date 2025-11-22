@@ -6,6 +6,7 @@
 func kmp(need string, target string) int {
     // target 要匹配的，need 模式串
     n, m := len(need), len(target)
+    // cnt := 0    // 统计匹配的个数
     if m == 0 {
         return 0
     }
@@ -33,9 +34,11 @@ func kmp(need string, target string) int {
             j++
         }
         if j == m { // 匹配成功
+            // cnt++
             return i - m + 1
         }
     }
+    // return cnt
     return -1
 }
 ```
