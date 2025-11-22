@@ -68,5 +68,5 @@ func main() {
 ## 字符串
 
 ### [子序列自动机](Go/Subsequence_Automaton.md)
-
+### [kmp](Go/kpm.md)
 ---
