@@ -1,5 +1,7 @@
 # KMP
 
+返回值是 $target$ 串中第一个可以匹配 $need$ 的下标
+
 ```
 func kmp(need string, target string) int {
     // target 要匹配的，need 模式串
