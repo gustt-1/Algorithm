@@ -15,5 +15,5 @@
 
 | 题号 | 题目名称 | 题解链接 | 类型 | 难度(CodeforcesRating) |
 |------|----------|----------|------|------------------------|
-| **1883E** | [Look Back](https://codeforces.com/problemset/problem/1883/E) | [cf1883E](./solution/cf1883E.md) | 位运算 | 1700
-| **2160C** | [Reverse XOR](https://codeforces.com/problemset/problem/2160/C) | [cf2160C](./solution/cf2160C.md) | 位运算 | 1300
+| **1883E** | [Look Back](https://codeforces.com/problemset/problem/1883/E) | [cf1883E](./solution/cf1883E.md) | 位运算 | 1700 |
+| **2160C** | [Reverse XOR](https://codeforces.com/problemset/problem/2160/C) | [cf2160C](./solution/cf2160C.md) | 位运算 | 1300 |
