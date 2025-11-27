@@ -20,6 +20,7 @@
 |-------|-----------------------------------------|------------------------------|---------------|------------------------|
 | **699** | [掉落的方块](https://leetcode.cn/problems/falling-squares/description/) | [LeetCode-699](solution/LeetCode699.md)   |离散化线段树 |  困难 |
 | **930** | [和相同的二元子数组](https://leetcode.cn/problems/binary-subarrays-with-sum/description/) | [LeetCode-930](solution/LeetCode930.md) | 前缀和+哈希表/滑动窗口 | 中等（1592）|
+| **3381** | [长度可被 K 整除的子数组的最大元素和](https://leetcode.cn/problems/maximum-subarray-sum-with-length-divisible-by-k/description/) | [LeetCode-3381](solution/LeetCode3381.md) | 前缀和/枚举右维护左 | 1943 |
 ---
 
 ## Codeforces 题目（Codeforces Problems）
