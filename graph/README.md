@@ -18,6 +18,7 @@
 |------|----------|----------|------|
 | **2192** | [有向无环图中一个节点的所有祖先](https://leetcode.cn/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/) | [LeetCode-2192](solution/LeetCode2192.md) | **中等(1788)** |
 | **924** | [尽量减少恶意软件的传播](https://leetcode.cn/problems/minimize-malware-spread/description/) | [LeetCode-924](solution/LeetCode924.md) | **困难(1869)** |
+| **2872** | [可以被 K 整除连通块的最大数目](https://leetcode.cn/problems/maximum-number-of-k-divisible-components/description/) | [LeetCode-2872](solution/LeetCode2872.md) | **困难(1968)** |
 ---
 
 ## Codeforces 题目（Codeforces Problems）
