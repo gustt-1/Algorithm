@@ -28,7 +28,7 @@
 
 ---
 
-## [GoLang 算法竞赛模板](templates/README.md)
+## [算法竞赛模板](templates/README.md)
 
 ---
 
