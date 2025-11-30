@@ -24,6 +24,7 @@
 | **956** | [最高的广告牌](https://leetcode.cn/problems/tallest-billboard/) | [LeetCode-956](solution/LeetCode956.md) | 0-1背包 | 困难(2381) |
 | **2518** | [好分区的数目](https://leetcode.cn/problems/number-of-great-partitions/description/) | [LeetCode-2518](solution/LeetCode2518.md) | 0-1背包 | 困难(2415) |
 | **2376** | [统计特殊整数](https://leetcode.cn/problems/count-special-integers/description/) | [LeetCode2376](solution/LeetCode2376.md) | 数位DP | 困难(2120) |
+| **1012** | [至少有 1 位重复的数字](https://leetcode.cn/problems/numbers-with-repeated-digits/description/) | [LeetCode1012](solution/LeetCode1012.md)| 数位DP | 困难(2230) |
 ---
 
 ## Codeforces 题目（Codeforces Problems）
