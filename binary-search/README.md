@@ -12,7 +12,7 @@
 
 | 题号 | 题目名称 | 题解链接 |  类型   | 难度(LeetCodeRating) |
 |------|----------|----------|----------|----------------------|
-
+| **2141** | [同时运行 N 台电脑的最长时间](https://leetcode.cn/problems/maximum-running-time-of-n-computers/description/) | [LeetCode2141](./solution/LeetCode2141.md) | 二分答案 | 困难(2265) |
 ---
 
 ## Codeforces 题目（Codeforces Problems）
