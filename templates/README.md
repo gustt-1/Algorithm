@@ -53,6 +53,7 @@ func main() {
 ---
 ## 动态规划
 ### [矩阵快速幂](Go/Matrix_Fast_Power.md)
+### [数位DP](Go/Digit_Dynamic_Programming.md)
 
 ---
 
