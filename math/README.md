@@ -68,3 +68,4 @@
 | **cf2147C** | [Rabbits](https://codeforces.com/problemset/problem/2147/C) | [cf2147C](./solution/cf2147C.md) | 思维/贪心 | 1500 |
 | **cf1860C** | [Game on Permutation](https://codeforces.com/problemset/problem/1860/C) | [cf1860C](./solution/cf1860C.md) | 博弈/DP | 1400 |
 | **cf2157C** | [Meximum Array 2](https://codeforces.com/problemset/problem/2157/C) | [cf2157C](./solution/cf2157C.md) | 构造 | 1400 |
+| **cf1838C** | [No Prime Differences](https://codeforces.com/problemset/problem/1838/C) | [cf1838C](./solution/cf1838C.md) | 构造 | 1500 |
