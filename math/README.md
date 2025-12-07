@@ -41,6 +41,7 @@
 | **1611** | [使整数变为 0 的最少操作次数](https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero/) | [LeetCode1611](./solution/LeetCode1611.md) | 数学 | 困难(2345) |
 | **3234** | [统计 1 显著的字符串的数量](https://leetcode.cn/problems/count-the-number-of-substrings-with-dominant-ones/description/) | [LeetCode3234](./solution/LeetCode3234.md) | 思维/枚举 | 中等(2557) | 
 | **3171** | [找到按位或最接近 K 的子数组](https://leetcode.cn/problems/find-subarray-with-bitwise-or-closest-to-k/description/) | [LeetCode3171](./solution/LeetCode3171.md) | 思维(LogTrick) | 困难(2163) |
+| **3767** | [选择 K 个任务的最大总分数](https://leetcode.cn/problems/maximize-points-after-choosing-k-tasks/description/) | [LeetCode3767](./solution/LeetCode3767.md) | 贪心/排序 | 中等 |
 
 ---
 
