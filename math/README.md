@@ -71,3 +71,4 @@
 | **cf2157C** | [Meximum Array 2](https://codeforces.com/problemset/problem/2157/C) | [cf2157C](./solution/cf2157C.md) | 构造 | 1400 |
 | **cf1838C** | [No Prime Differences](https://codeforces.com/problemset/problem/1838/C) | [cf1838C](./solution/cf1838C.md) | 构造 | 1500 |
 | **cf2137D** | [Replace with Occurrences](https://codeforces.com/problemset/problem/2137/D) | [cf2137D](./solution/cf2137D.md) | 构造 | 1200 |
+| **cf2084C** | [You Soared Afar With Grace](https://codeforces.com/problemset/problem/2084/C) | [cf2084C](./solution/cf2084C.md) | 构造 | 1400 |
