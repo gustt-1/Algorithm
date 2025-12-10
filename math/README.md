@@ -72,3 +72,4 @@
 | **cf1838C** | [No Prime Differences](https://codeforces.com/problemset/problem/1838/C) | [cf1838C](./solution/cf1838C.md) | 构造 | 1500 |
 | **cf2137D** | [Replace with Occurrences](https://codeforces.com/problemset/problem/2137/D) | [cf2137D](./solution/cf2137D.md) | 构造 | 1200 |
 | **cf2084C** | [You Soared Afar With Grace](https://codeforces.com/problemset/problem/2084/C) | [cf2084C](./solution/cf2084C.md) | 构造 | 1400 |
+| **cf2055C** | [The Trail](https://codeforces.com/problemset/problem/2055/C) | [cf2055C](./solution/cf2055C.md) | 构造 | 1400 |
