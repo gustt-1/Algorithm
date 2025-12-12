@@ -74,3 +74,4 @@
 | **cf2084C** | [You Soared Afar With Grace](https://codeforces.com/problemset/problem/2084/C) | [cf2084C](./solution/cf2084C.md) | 构造 | 1400 |
 | **cf2055C** | [The Trail](https://codeforces.com/problemset/problem/2055/C) | [cf2055C](./solution/cf2055C.md) | 构造 | 1400 |
 | **cf1790E** | [Vlad and a Pair of Numbers](https://codeforces.com/problemset/problem/1790/E) | [cf1790E](./solution/cf1790E.md) | 构造/思维/位运算 | 1400 |
+| **cf1837D** | [Bracket Coloring](https://codeforces.com/problemset/problem/1837/D) | [cf1837D](./solution/cf1837D.md) | 构造/贪心 | 1400 |
