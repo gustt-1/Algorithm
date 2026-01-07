@@ -1,13 +1,12 @@
 # 刷题笔记 by gustt
 
-欢迎访问我的刷题仓库！这里整理了我在力扣（Leetcode）、Codeforces 等平台上的一些算法趣题题解。包含Go/C++/Python(更多的为Go)三种语言
+欢迎访问我的刷题仓库！这里整理了我在力扣（Leetcode）、Codeforces 等平台上的一些算法趣题题解。包含Go/C++/Python(更多的为Go)三种语言的实现。
 
 ---
 
 ##  LeetCode / Codeforces 题解
 
 算法分类：
-
 
 
 - [字符串（String Algorithms）](./string/README.md)
