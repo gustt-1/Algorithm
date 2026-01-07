@@ -1,0 +1,155 @@
+# [cf2121E] [Sponsor of Your Problems](https://codeforces.com/contest/2121/problem/E)
+## 题目描述 
+
+> For two integers $a$ and $b$, we define $f(a, b)$ as the number of positions in the decimal representation of the numbers $a$ and $b$ where their digits are the same. For example, $f(12, 21) = 0$, $f(31, 37) = 1$, $f(19891, 18981) = 2$, $f(54321, 24361) = 3$.
+
+> You are given two integers $l$ and $r$ of the **same** length in decimal representation. Consider all integers $l \leq x \leq r$. Your task is to find the minimum value of $f(l, x) + f(x, r)$.
+
+---
+## 题目大意
+
+> 对于两个整数 $a$ 和 $b$ ，我们将 $f(a, b)$ 定义为数字 $a$ 和 $b$ 的十进制表示中数字相同的位置数。例如， $f(12, 21) = 0$ 、 $f(31, 37) = 1$ 、 $f(19891, 18981) = 2$ 、 $f(54321, 24361) = 3$ 。
+
+> 给定两个十进制表示长度**相同**的整数 $l$ 和 $r$ 。考虑所有整数 $l \leq x \leq r$ 。您的任务是找到 $f(l, x) + f(x, r)$ 的最小值。
+
+
+
+## 输入
+
+> 
+
+
+
+## 输出
+
+> 
+
+---
+
+## 我的思路
+**贪心**
+
+
+> 尝试手玩一些数据：
+$l = 1234$
+$r = 1400$
+答案是多少？
+从百位数开始可以填 $3$ ，后面随便填，一定可以不一样，所以答案是 $2$ （**千位数必须填 1**）。
+
+$l = 129989$
+$r = 130000$
+答案是多少？
+$299$ 和 $300$ 这段必须和 $l, r$ 其中一个数**一样**，后面可以填 9，然后就可以随便填。
+答案是 1 的长度加上 1299 的长度 = 1 + 4 = 5。
+
+特别地，如果 `l = r` ，那么答案为 `len(l) * 2` 。
+否则会进入上面两种情况之一。
+
+时间复杂度： $O(log r)$ ，一次遍历。
+
+
+---
+
+## 时间复杂度
+
+$O(log r)$
+
+---
+
+## 空间复杂度
+
+$O()$
+
+---
+
+## Go 代码
+
+```Go
+package main
+
+import (
+	"bufio"
+	. "fmt"
+	"io"
+	"os"
+)
+
+const inf = 0x3f3f3f3f
+
+type (
+	i8  = int8
+	i64 = int64
+	i32 = int32
+	u64 = uint64
+	u32 = uint32
+	f32 = float32
+	f64 = float64
+)
+
+func solve(in io.Reader, out io.Writer) {
+	var T int
+o:
+	for Fscan(in, &T); T > 0; T-- {
+		var l, r []byte
+		Fscan(in, &l, &r)
+		for i, d := range l {
+			if int(d) == int(r[i]) {
+				continue
+			}
+			if int(r[i])-int(d) > 1 {
+				Fprintln(out, i*2)
+			} else {
+				j := i + 1
+				for ; j < len(l) && l[j] == '9' && r[j] == '0'; j++ {
+				}
+				Fprintln(out, i+j)
+			}
+			continue o
+		}
+		Fprintln(out, len(l)*2)
+	}
+}
+
+func abs(x int) int {
+	if x < 0 {
+		return -x
+	}
+	return x
+}
+
+func gcd(x, y int) int {
+	for y != 0 {
+		x, y = y, x%y
+	}
+	return x
+}
+
+func max64(x, y i64) i64 {
+	if x > y {
+		return x
+	}
+	return y
+}
+
+func min64(x, y i64) i64 {
+	if x < y {
+		return x
+	}
+	return y
+}
+
+func main() {
+	solve(bufio.NewReader(os.Stdin), os.Stdout)
+}
+```
+---
+
+## C++ 代码
+
+```C++
+```
+---
+## Python 代码
+
+```Python
+```
