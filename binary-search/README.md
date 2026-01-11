@@ -23,3 +23,4 @@
 | **cf1907D** | [Jumping Through Segments](https://codeforces.com/problemset/problem/1907/D) | [cf1907D](./solution/cf1907D.md) | 二分答案 | 1400 |
 | **cf799C** | [Fountains](https://codeforces.com/problemset/problem/799/C) | [cf799C](./solution/cf799C.md) | 二分查找 | 1800 | 
 | **cf1856C** | [To Become Max](https://codeforces.com/problemset/problem/1856/C) | [cf1856C](./solution/cf1856C.md) | 二分答案 | 1600 |
+| **cf1840D** | [Wooden Toy Festival](https://codeforces.com/problemset/problem/1840/D) | [cf1840D](./solution/cf1840D.md) | 二分答案 | 1400 |
