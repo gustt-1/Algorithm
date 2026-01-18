@@ -27,8 +27,8 @@
 | **LeetCode2376** | [统计特殊整数](https://leetcode.cn/problems/count-special-integers/description/) | [LeetCode2376](solution/LeetCode2376.md) | 数位DP | 困难(2120) |
 | **LeetCode1012** | [至少有 1 位重复的数字](https://leetcode.cn/problems/numbers-with-repeated-digits/description/) | [LeetCode1012](solution/LeetCode1012.md)| 数位DP | 困难(2230) |
 | **LeetCode1235** | [规划兼职工作](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/description/) | [LeetCode1235](solution/LeetCode1235.md) | 二分优化 DP | 困难(2023) |
-| **LeetCode3791** | [给定范围内平衡整数的数目](https://leetcode.cn/problems/number-of-balanced-integers-in-a-range/description/) | [LeetCode3791](solution/LeetCode3791.md) | 数位DP | 困难() |
-| **LeetCode3811** | [交替按位异或分割的数目](https://leetcode.cn/problems/number-of-alternating-xor-partitions/description/) | [LeetCode3811](solution/LeetCode3811.md) | 数位DP | 困难() |
+| **LeetCode3791** | [给定范围内平衡整数的数目](https://leetcode.cn/problems/number-of-balanced-integers-in-a-range/description/) | [LeetCode3791](solution/LeetCode3791.md) | 数位DP | 困难(2132) |
+| **LeetCode3811** | [交替按位异或分割的数目](https://leetcode.cn/problems/number-of-alternating-xor-partitions/description/) | [LeetCode3811](solution/LeetCode3811.md) | 合法子序列DP | 中等() |
 
 ---
 
