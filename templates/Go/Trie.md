@@ -18,7 +18,7 @@ func NewTrie() *Trie {
     return &Trie{root: &Node{}}
 }
 
-func (this *Trie) Insert(word string) {
+func (this *Trie) insert(word string) {
     cur := this.root
     for _, c := range word {
         c -= 'a'
@@ -45,11 +45,11 @@ func (this *Trie) find(word string) int {
     return 1
 }
 
-func (this *Trie) Search(word string) bool {   // 找到完整的
+func (this *Trie) search(word string) bool {   // 找到完整的
     return this.find(word) == 2
 }
 
-func (this *Trie) StartsWith(prefix string) bool {  // 找到前缀
+func (this *Trie) hasprefix(prefix string) bool {  // 找到前缀
     return this.find(prefix) != 0
 }
 ```
