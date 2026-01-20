@@ -44,7 +44,7 @@ func main() {
 
 ### [堆](Go/Heap.md)
 ### [树状数组](Go/Fenwick_Tree.md)
-
+### [前缀树](Go/Trie.md)
 
 ---
 
