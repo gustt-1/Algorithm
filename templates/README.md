@@ -10,25 +10,67 @@ import (
 	"os"
 )
 
-type (
-	i64  = int64
-	i32  = int32
-	ui64 = uint64
-	ui32 = uint32
-)
+const inf = 0x3f3f3f3f
 
-func solve(in io.Reader, out io.Writer) {
-	var T int
-	for Fscan(in, &T); T > 0; T-- {
-		
-	}
+type Number interface {
+	~int | ~int8 | ~int32 | ~int64 |
+		~uint | ~uint32 | ~uint64 |
+		~float32 | ~float64
 }
 
-func abs(x int) int {
+type Signed interface {
+	~int | ~int8 | ~int32 | ~int64
+}
+
+type (
+	i8  = int8
+	u64 = uint64
+	u32 = uint32
+	f32 = float32
+	f64 = float64
+)
+
+func abs[T Signed](x T) T {
 	if x < 0 {
 		return -x
 	}
 	return x
+}
+
+func gcd[T Signed](a, b T) T {
+	for a != 0 {
+		a, b = b%a, a
+	}
+	return b
+}
+
+func lcm[T Signed](a, b T) T {
+	if a == 0 || b == 0 {
+		return 0
+	}
+	return a / gcd(a, b) * b
+}
+
+func max(x, y int64) int64 {
+	if x > y {
+		return x
+	}
+	return y
+}
+
+func min[T Number](x, y T) T {
+	if x < y {
+		return x
+	}
+	return y
+}
+
+
+func solve(in io.Reader, out io.Writer) {
+	var T int
+	for Fscan(in, &T); T > 0; T-- {
+
+	}
 }
 
 func main() {
