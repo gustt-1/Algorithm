@@ -51,7 +51,7 @@ func lcm[T Signed](a, b T) T {
 	return a / gcd(a, b) * b
 }
 
-func max(x, y int64) int64 {
+func max[T Number](x, y T) T {
 	if x > y {
 		return x
 	}
@@ -64,7 +64,6 @@ func min[T Number](x, y T) T {
 	}
 	return y
 }
-
 
 func solve(in io.Reader, out io.Writer) {
 	var T int
