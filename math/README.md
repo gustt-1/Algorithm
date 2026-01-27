@@ -83,3 +83,4 @@
 | **cf1696C** | [Fishingprince Plays With Array](https://codeforces.com/problemset/problem/1696/C) | [cf1696C](./solution/cf1696C.md) | 归一化思想 | 1400 |
 | **cf1903C** | [Theofanis' Nightmare](https://codeforces.com/problemset/problem/1903/C) | [cf1903C](./solution/cf1903C.md) | 边际收益贪心 | 1400 |
 | **cf1682C** | [LIS or Reverse LIS?](https://codeforces.com/problemset/problem/1682/C) | [cf1682C](./solution/cf1682C.md) | 贡献法 | 1400 |
+| **cf1872E** | [Data Structures Fan](https://codeforces.com/problemset/problem/1872/E) | [cf1872E](./solution/cf1872E.md) | 思维/异或性质 | 1500 |
